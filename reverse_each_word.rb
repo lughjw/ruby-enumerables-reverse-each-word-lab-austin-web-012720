@@ -4,6 +4,6 @@ def reverse_each_word(str)
   puts str_array
   ret_array = str_array.collect{ |string| string.reverse }
   
-  puts ret_array.to_s
+  puts ret_array
   ret_array.to_s
 end
